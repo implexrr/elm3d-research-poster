@@ -1,0 +1,158 @@
+
+\begin{textblock}{2}(0.7,1)
+\includegraphics[height=8.5cm]{englogo.png} % We can use CAS logo as well?
+\end{textblock}
+
+\begin{textblock}{2}(12.7,0.80)
+\includegraphics[height=10.5cm]{outreachlogo.png}
+\end{textblock}
+
+\begin{textblock}{8}(4,1)
+\titlepage
+\end{textblock}
+
+\begin{textblock}{7.25}(0.5,2.9)
+
+%this needs help
+\begin{block}{Introduction}
+McMaster Start Coding has been teaching children Computer Science for a decade and  has created new frameworks and tools to help K-12 students learn.
+Knowing that children love comics,
+we extended our tools for graphics programming in Elm
+to create a Comics tool that allows children to create animated comic strips.
+This activity supports  multiple literacies including English literacy, Visual Design literacy and Digital Information literacy,
+as well as teamwork and planning.
+\end{block}
+
+
+\begin{block}{How does it work?}
+
+Comics include 8 frames, with each student assigned two frames, totalling 4 students in a team.
+Students log into \texttt{http://MacOutreach.Rocks} and have access to four
+comics slots.
+The slots are designed so each person always has a Shared Definitions slot as their first slot, and the second and third slots are their assigned frames.
+The Shared Definitions slot is designed to facilitate the groups team work process, by allowing students to define custom definitions. These definitions then can be called by any of the team members at any point when developing their frames.
+Finally, the fourth slot is the updated Comic including the latest working version of all shared definitions.
+
+\vspace{0.0125em}
+\begin{figure}
+\includegraphics[height = 15 cm]{/TheSeaLife/img09.png}
+\caption{The \texttt{MacOutreach.Rocks} interface, with the code on the left,
+and the output on the right, showing the extent of the frame displayed in the final
+comic using a transparent grey border.  In the second column, the shared definitions slot is shown on the left, and the full comic on the right.  The characters in the full comic appear because their definitions are used in the frame slots.}
+\end{figure}
+\vspace{0.0125em}
+\end{block}
+
+\begin{block}{Inspiration: Jigsaw Teaching Framework}
+
+Jigsaw provides a social learning framework. It was introduced in 1971 by Dr. Elliot Aronson to defuse hostility and distrust between students after the desegregation of public schools in the US. %\cite{aronson2002building}.
+
+The jigsaw teaching technique mainly consists of:
+\begin{enumerate}
+	\item Dividing subject material into segments and creating groups of the same size,
+	\item Assigning one segment to each student and having them become experts in it,
+	\item Have students present their segments to each other,
+	\item Finally, test students on all segments of the subject material.
+\end{enumerate}
+
+Many studies have shown that students using the jigsaw teaching technique had higher levels of self-esteem, performed better on standardized exams, enjoyed school more, and worked together better than in traditional classroom settings.
+
+
+\end{block}
+
+\begin{block}{Comics}
+{\Large\texttt{http://outreach.mcmaster.ca/\#comics2019}}
+\end{block}
+
+\end{textblock}
+
+
+
+\begin{textblock}{7.25}(8.25,2.9)
+\begin{block}{Subject Material}
+
+Using our new tool, we taught students in three different classes at St. Luke Elementary Catholic School, grade 7, a 7/8 split, and grade 8.
+Each classroom teacher chose a different subject area:
+\begin{enumerate}
+	\item Climate Change,
+	\item War of 1812,
+	\item The Giver (a Novel).
+\end{enumerate}
+And each teacher evaluated the results, assigning credit to multiple subject areas:
+\begin{enumerate}
+	\item Digital Literacy,
+	\item Technology,
+	\item Science,
+	\item History,
+	\item Math.
+\end{enumerate}
+
+\end{block}
+
+
+\begin{block}{Results}
+
+\emph{Sharing:}  Students are accustomed to sharing work by copying and pasting in web documents.  When told to share work through the shared definitions slot,
+some groups did so effectively, but most did not.
+The most effective use of sharing was of characters,
+so next time we will emphasize this use of sharing,
+since children identify strongly with characters.
+
+\emph{Writing:}  Students used third-person narratives in text blocks
+rather than text bubbles for speech,
+and reported that the text bubble function had too many parameters.
+With static text bubble locations, and only eight frames,
+they also did not think there was enough room for a conversation.
+
+\includegraphics[height=12.25cm]{/TheSeaLife/img01.jpg} \ \
+    \includegraphics[height=12.25cm,trim=0 0 30 0,clip]{/TheSeaLife/img08.png}
+
+
+\end{block}
+
+\begin{block}{Conclusions \& Future Work}
+We have demonstrated an activity that connects multiple literacies,
+but continue to improve our tool based on the recommendations of the teachers and students.
+Teachers want a flexible way of assigning different frames to different students. Students need a help page explaining how to use shared definitions, and the textBubble functions.
+In addition to the basic text bubble,
+we will create a conversation function which animates the
+appearance in order of text bubbles representing a conversation.
+This will overcome a limitation identified by the students,
+and will encourage them to write more.
+\end{block}
+
+\begin{block}{Thanks}
+\end{block}
+
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[height=5cm]{nserc-logo.jpg}
+\hspace{1cm}
+\includegraphics[height=5cm]{elm-logo.png}
+
+\end{figure}
+\end{textblock}
+
+\begin{textblock}{2}(0.44,13.6)
+\includegraphics[height=11cm]{/TheSeaLife/img00.png}
+\end{textblock}
+
+\begin{textblock}{2}(3.50,13.6)
+\includegraphics[height=11cm]{/TheSeaLife/img02.png}
+\end{textblock}
+
+\begin{textblock}{2}(6.55,13.6)
+\includegraphics[height=11cm]{/TheSeaLife/img05.png}
+\end{textblock}
+
+\begin{textblock}{2}(9.60,13.6)
+\includegraphics[height=11cm]{/TheSeaLife/img06.png}
+\end{textblock}
+
+\begin{textblock}{2}(12.65,13.6)
+\includegraphics[height=11cm]{/TheSeaLife/img07.png}
+\end{textblock}
+
+
+
